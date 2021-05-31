@@ -160,7 +160,7 @@ def select_docs(docs, doc_class, summary):
 
 
 
-file_name = '/shared/data2/jiaxinh3/summarization/BERT-Transformer-for-Summarization/data/processed_data/yelp_big/cate/topics.txt'
+file_name = 'data/processed_data/yelp_big/topics.txt'
 topics = []
 word2topic = {}
 topic_name = []
@@ -174,8 +174,8 @@ with open(file_name) as f:
         
 
 
-corpus_file = '/shared/data2/jiaxinh3/summarization/BERT-Transformer-for-Summarization/data/processed_data/yelp_big/train_bart.csv'
-output_file = '/shared/data2/jiaxinh3/summarization/BERT-Transformer-for-Summarization/data/processed_data/yelp_big/train_extract_w_noise.txt'
+corpus_file = 'data/processed_data/yelp_big/train_bart.csv'
+output_file = 'data/processed_data/yelp_big/train_extract_w_noise.txt'
 corpus = []
 class_num_count = {}
 doc_length_total = 0
